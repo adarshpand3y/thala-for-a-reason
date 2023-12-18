@@ -12,7 +12,7 @@ const Navbar = () => {
                     <div className="d-flex ms-auto">
                         <ul className="navbar-nav mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link active" href="#">Github Repo</a>
+                                <a className="nav-link active" target='_blank' href="https://github.com/adarshpand3y/thala-for-a-reason">Github Repo</a>
                             </li>
                         </ul>
                     </div>

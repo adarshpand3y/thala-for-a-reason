@@ -37,7 +37,6 @@ export default function Home() {
         const strInput = String(input);
         const characters = strInput.split('');
         const formattedString = characters.join('+');
-        console.log(formattedString)
         return formattedString;
     };
 
@@ -139,8 +138,6 @@ export default function Home() {
                         <input value={inputText} onChange={(event) => setInputText(event.target.value)} type="text" className="form-control" id="textInput" placeholder="M+S+D+H+O+N+I" />
                     </div>
                     <center>
-                        <p className='lead'>{inputText}</p>
-                        <p className='lead'>{inputText && (isThala === true ? "Thala" : "Not Thala")}</p>
                         <button onClick={checkThala} type="button" className="btn btn-primary mx-1" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             Check Thala
                         </button>
